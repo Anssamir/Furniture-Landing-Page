@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FurnitureHub - Premium Furniture Collection</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-couch"></i>
+                <span>FurnitureHub</span>
+            </div>
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#products" class="nav-link">Products</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Transform Your Space with Premium Furniture</h1>
+                <p>Discover our curated collection of modern, elegant furniture designed to elevate your living experience with style and comfort.</p>
+                <div class="hero-buttons">
+                    <a href="#products" class="btn-primary">Shop Now</a>
+                    <a href="#products" class="btn-secondary">View Collection</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1158&q=80" alt="Modern Living Room" class="hero-main-image">
+                <div class="floating-images">
+                    <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Sofa" class="floating-img img-1">
+                    <img src="https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Chair" class="floating-img img-2">
+                    <img src="https://images.unsplash.com/photo-1549497538-303791108f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Table" class="floating-img img-3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h2>Why Choose FurnitureHub?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-award"></i>
+                    <h3>Premium Quality</h3>
+                    <p>Handcrafted furniture made from the finest materials with attention to every detail</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-shipping-fast"></i>
+                    <h3>Fast Delivery</h3>
+                    <p>Free shipping and quick delivery to your doorstep within 2-5 business days</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-tools"></i>
+                    <h3>Expert Assembly</h3>
+                    <p>Professional assembly service available with experienced technicians</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Products</h2>
+                <p>Explore our extensive collection of premium furniture</p>
+            </div>
+
+            <div class="product-categories">
+                <div class="category-card">
+                    <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Living Room" class="category-image">
+                    <div class="category-content">
+                        <h3>Living Room</h3>
+                        <p>Sofas, Coffee Tables, TV Units</p>
+                        <div class="category-items">
+                            <span>Modern Sofas</span>
+                            <span>Glass Tables</span>
+                            <span>Entertainment Units</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="category-card">
+                    <img src="https://images.unsplash.com/photo-1540932239986-30128078f3c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Bedroom" class="category-image">
+                    <div class="category-content">
+                        <h3>Bedroom</h3>
+                        <p>Beds, Wardrobes, Nightstands</p>
+                        <div class="category-items">
+                            <span>King Size Beds</span>
+                            <span>Walk-in Closets</span>
+                            <span>Dresser Tables</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="category-card">
+                    <img src="https://images.unsplash.com/photo-1541558869434-2840d308329a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Office" class="category-image">
+                    <div class="category-content">
+                        <h3>Office</h3>
+                        <p>Desks, Office Chairs, Storage</p>
+                        <div class="category-items">
+                            <span>Executive Desks</span>
+                            <span>Ergonomic Chairs</span>
+                            <span>Filing Cabinets</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-showcase">
+                <h3>Featured Products</h3>
+                <div class="product-grid">
+                    <div class="product-item">
+                        <img src="https://images.unsplash.com/photo-1506439773649-6e0eb8cfb237?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Executive Chair" class="product-image">
+                        <div class="product-info">
+                            <h4>Executive Leather Chair</h4>
+                            <p>Ergonomic leather office chair with lumbar support</p>
+                            <span class="price">$599</span>
+                            <button class="product-btn">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Modern Sofa" class="product-image">
+                        <div class="product-info">
+                            <h4>Modern 3-Seater Sofa</h4>
+                            <p>Contemporary sofa with premium fabric upholstery</p>
+                            <span class="price">$1,299</span>
+                            <button class="product-btn">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <img src="https://images.unsplash.com/photo-1549497538-303791108f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Glass Table" class="product-image">
+                        <div class="product-info">
+                            <h4>Glass Coffee Table</h4>
+                            <p>Tempered glass coffee table with steel frame</p>
+                            <span class="price">$449</span>
+                            <button class="product-btn">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Living Room Set" class="product-image">
+                        <div class="product-info">
+                            <h4>Complete Living Room Set</h4>
+                            <p>Modern sectional sofa with matching accessories</p>
+                            <span class="price">$2,499</span>
+                            <button class="product-btn">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <img src="https://images.unsplash.com/photo-1540932239986-30128078f3c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Modern Bed" class="product-image">
+                        <div class="product-info">
+                            <h4>Platform King Bed</h4>
+                            <p>Minimalist platform bed with upholstered headboard</p>
+                            <span class="price">$899</span>
+                            <button class="product-btn">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Dining Set" class="product-image">
+                        <div class="product-info">
+                            <h4>6-Person Dining Set</h4>
+                            <p>Solid wood dining table with matching chairs</p>
+                            <span class="price">$1,599</span>
+                            <button class="product-btn">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <img src="https://images.unsplash.com/photo-1541558869434-2840d308329a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Office Desk" class="product-image">
+                        <div class="product-info">
+                            <h4>Executive Office Desk</h4>
+                            <p>Large wooden desk with built-in storage</p>
+                            <span class="price">$749</span>
+                            <button class="product-btn">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <img src="https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Bookshelf" class="product-image">
+                        <div class="product-info">
+                            <h4>Modern Bookshelf</h4>
+                            <p>5-tier wooden bookshelf with clean lines</p>
+                            <span class="price">$349</span>
+                            <button class="product-btn">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <img src="https://images.unsplash.com/photo-1563298723-dcfebaa392e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Accent Chair" class="product-image">
+                        <div class="product-info">
+                            <h4>Velvet Accent Chair</h4>
+                            <p>Comfortable accent chair with gold legs</p>
+                            <span class="price">$399</span>
+                            <button class="product-btn">View Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>About FurnitureHub</h2>
+                <p>Crafting beautiful spaces since 2010</p>
+            </div>
+
+            <div class="about-content">
+                <div class="about-story">
+                    <div class="story-text">
+                        <h3>Our Story</h3>
+                        <p>FurnitureHub was founded with a simple mission: to make premium furniture accessible to everyone. We believe that your home should reflect your personality and style, which is why we offer a diverse range of furniture pieces that combine functionality with aesthetic appeal.</p>
+                        
+                        <div class="story-highlights">
+                            <div class="highlight">
+                                <div class="highlight-icon">
+                                    <i class="fas fa-home"></i>
+                                </div>
+                                <div class="highlight-content">
+                                    <h4>50,000+</h4>
+                                    <p>Happy Homes</p>
+                                </div>
+                            </div>
+                            <div class="highlight">
+                                <div class="highlight-icon">
+                                    <i class="fas fa-calendar"></i>
+                                </div>
+                                <div class="highlight-content">
+                                    <h4>13+ Years</h4>
+                                    <p>Of Excellence</p>
+                                </div>
+                            </div>
+                            <div class="highlight">
+                                <div class="highlight-icon">
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="highlight-content">
+                                    <h4>4.9/5</h4>
+                                    <p>Customer Rating</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="story-image">
+                        <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80" alt="Our Showroom">
+                    </div>
+                </div>
+
+                <div class="team-section">
+                    <h3>Meet Our Team</h3>
+                    <div class="team-grid">
+                        <div class="team-member">
+                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="Emily Rodriguez" class="member-photo">
+                            <h4>Sarah Johnson</h4>
+                            <p>Founder & CEO</p>
+                        </div>
+                        <div class="team-member">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="Michael Chen" class="member-photo">
+                            <h4>Michael Chen</h4>
+                            <p>Design Director</p>
+                        </div>
+                        <div class="team-member">
+                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80" alt="Emily Rodriguez" class="member-photo">
+                            <h4>Emily Rodriguez</h4>
+                            <p>Operations Manager</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="values-section">
+                    <h3>Our Values</h3>
+                    <div class="values-grid">
+                        <div class="value-item">
+                            <i class="fas fa-leaf"></i>
+                            <h4>Sustainability</h4>
+                            <p>We source materials responsibly and promote eco-friendly practices</p>
+                        </div>
+                        <div class="value-item">
+                            <i class="fas fa-heart"></i>
+                            <h4>Quality</h4>
+                            <p>Every piece is crafted with attention to detail and built to last</p>
+                        </div>
+                        <div class="value-item">
+                            <i class="fas fa-handshake"></i>
+                            <h4>Service</h4>
+                            <p>Customer satisfaction is our top priority in everything we do</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p>Complete furniture solutions for your home and office</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Interior Design">
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <h3>Interior Design Consultation</h3>
+                        <p>Our expert designers will help you create the perfect space that reflects your style and meets your needs.</p>
+                        <ul class="service-features">
+                            <li>Free initial consultation</li>
+                            <li>3D room visualization</li>
+                            <li>Color and material selection</li>
+                            <li>Space optimization</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Assembly Service">
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h3>Assembly & Installation</h3>
+                        <p>Professional assembly service to ensure your furniture is set up correctly and safely.</p>
+                        <ul class="service-features">
+                            <li>Expert assembly team</li>
+                            <li>Same-day service available</li>
+                            <li>All tools provided</li>
+                            <li>Quality guarantee</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1607400201515-c02471ff1f64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Delivery Service">
+                    </div>
+                    <div class="service-content">
+                        <div class="service-icon">
+                            <i class="fas fa-truck"></i>
+                        </div>
+                        <h3>Delivery Service</h3>
+                        <p>Fast and reliable delivery service to get your furniture to you safely and on time.</p>
+                        <ul class="service-features">
+                            <li>Free delivery over $500</li>
+                            <li>White glove service</li>
+                            <li>Flexible scheduling</li>
+                            <li>Damage protection</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Us</h2>
+                <p>Get in touch with our team for any questions or assistance</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Visit Our Showroom</h3>
+                            <p>123 Furniture Street<br>Design District, NY 10001</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Call Us</h3>
+                            <p>+1 (555) 123-4567<br>Mon-Sat: 9AM-7PM</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email Us</h3>
+                            <p>info@furniturehub.com<br>support@furniturehub.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Business Hours</h3>
+                            <p>Monday - Friday: 9AM - 7PM<br>Saturday: 10AM - 6PM<br>Sunday: 12PM - 5PM</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h3>Send us a Message</h3>
+                    <form action="mailto:info@furniturehub.com" method="post" enctype="text/plain">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name</label>
+                                <input type="text" id="firstName" name="firstName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name</label>
+                                <input type="text" id="lastName" name="lastName" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a subject</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="product">Product Information</option>
+                                <option value="service">Service Request</option>
+                                <option value="support">Customer Support</option>
+                                <option value="wholesale">Wholesale Inquiry</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="6" placeholder="Tell us how we can help you..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="map-section">
+                <h3>Find Our Showroom</h3>
+                <div class="map-container">
+                    <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80" alt="Showroom Location" class="map-image">
+                    <div class="map-overlay">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>123 Furniture Street, Design District, NY 10001</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-couch"></i>
+                        <span>FurnitureHub</span>
+                    </div>
+                    <p>Transform your space with our premium furniture collection. Quality craftsmanship meets modern design.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Product Categories</h4>
+                    <ul>
+                        <li><a href="#products">Living Room</a></li>
+                        <li><a href="#products">Bedroom</a></li>
+                        <li><a href="#products">Dining Room</a></li>
+                        <li><a href="#products">Office Furniture</a></li>
+                        <li><a href="#products">Storage Solutions</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Customer Service</h4>
+                    <ul>
+                        <li><a href="#contact">Help Center</a></li>
+                        <li><a href="#services">Delivery Info</a></li>
+                        <li><a href="#services">Assembly Service</a></li>
+                        <li><a href="#contact">Returns & Exchanges</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-details">
+                        <div class="contact-detail">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>123 Furniture Street, Design District, NY 10001</span>
+                        </div>
+                        <div class="contact-detail">
+                            <i class="fas fa-phone"></i>
+                            <span>+1 (555) 123-4567</span>
+                        </div>
+                        <div class="contact-detail">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@furniturehub.com</span>
+                        </div>
+                        <div class="contact-detail">
+                            <i class="fas fa-clock"></i>
+                            <span>Mon-Sat: 9AM-7PM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2024 FurnitureHub. All rights reserved.</p>
+                    <div class="footer-links">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">Cookie Policy</a>
+                        <a href="#">Sitemap</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
